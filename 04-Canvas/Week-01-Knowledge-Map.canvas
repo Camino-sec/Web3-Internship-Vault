@@ -15,7 +15,7 @@
 		{"id":"c4","type":"file","file":"02-Concepts/AI×Web3/AI Security Privacy.md","x":100,"y":720,"width":220,"height":100},
 		{"id":"c5","type":"file","file":"02-Concepts/AI×Web3/Layer2.md","x":350,"y":720,"width":220,"height":100},
 		{"id":"c6","type":"file","file":"02-Concepts/AI×Web3/Chainlink与预言机.md","x":600,"y":720,"width":220,"height":100},
-		{"id":"monad","type":"text","text":"## 🟣 Monad 生态\n（待学习）\n- 并行执行\n- MonadBFT\n- EVM 兼容","x":100,"y":-300,"width":220,"height":120},
+		{"id":"monad","type":"text","text":"## 🟣 Monad 生态\n（Day 2 实战）\n- ✅ 合约部署\n- ✅ RPC 查询\n- ⏳ 并行执行\n- ⏳ MonadBFT","x":100,"y":-300,"width":220,"height":120},
 		{"id":"note","type":"text","text":"### 💡 学习提示\n- 🟢 已掌握 → 间隔重复\n- 🟡 有盲区 → 精细加工\n- 🔴 未学 → 优先攻克\n\n每天用费曼技巧\n解释一个概念","x":1050,"y":580,"width":220,"height":160},
 		{"id":"n4","type":"file","file":"02-Concepts/Web3基础/DeFi概览.md","x":190,"y":180,"width":220,"height":100},
 		{"id":"n6","type":"file","file":"02-Concepts/Web3基础/EOA-智能账户-多签对比.md","x":240,"y":40,"width":220,"height":100},
@@ -26,6 +26,7 @@
 		{"id":"a4","type":"file","file":"02-Concepts/AI基础/AI-Agent.md","x":1000,"y":80,"width":220,"height":100},
 		{"id":"n7","type":"file","file":"02-Concepts/Web3基础/链上隐私与隐私协议.md","x":-400,"y":400,"width":220,"height":100},
 		{"id":"n3","type":"file","file":"02-Concepts/Web3基础/智能合约.md","x":-400,"y":230,"width":220,"height":100},
+		{"id":"n3-deploy","type":"file","file":"02-Concepts/Web3基础/合约部署实战.md","x":-400,"y":380,"width":220,"height":100},
 		{"id":"n2","type":"file","file":"02-Concepts/Web3基础/以太坊入门.md","x":-400,"y":50,"width":220,"height":100}
 	],
 	"edges":[
@@ -39,6 +40,7 @@
 		{"id":"e5","fromNode":"n5","fromSide":"bottom","toNode":"n6","toSide":"top","label":"类型"},
 		{"id":"e6","fromNode":"n5","fromSide":"right","toNode":"n8","toSide":"left","label":"消耗"},
 		{"id":"e7","fromNode":"n3","fromSide":"bottom","toNode":"n7","toSide":"top"},
+		{"id":"e8-deploy","fromNode":"n3","fromSide":"bottom","toNode":"n3-deploy","toSide":"top","label":"部署实战"},
 		{"id":"ea1","fromNode":"a1","fromSide":"bottom","toNode":"a2","toSide":"top","label":"基础"},
 		{"id":"ea2","fromNode":"a1","fromSide":"right","toNode":"a3","toSide":"left","label":"驱动"},
 		{"id":"ea3","fromNode":"a1","fromSide":"bottom","toNode":"a4","toSide":"top","label":"核心"},
@@ -50,6 +52,7 @@
 		{"id":"ec5","fromNode":"a4","fromSide":"right","toNode":"c4","toSide":"left","label":"安全边界"},
 		{"id":"e-cat-web3","fromNode":"cat-web3","fromSide":"bottom","toNode":"n1","toSide":"top"},
 		{"id":"e-cat-ai","fromNode":"cat-ai","fromSide":"bottom","toNode":"a1","toSide":"top"},
-		{"id":"e-cat-cross","fromNode":"cat-cross","fromSide":"bottom","toNode":"c1","toSide":"top"}
+		{"id":"e-cat-cross","fromNode":"cat-cross","fromSide":"bottom","toNode":"c1","toSide":"top"},
+		{"id":"e-monad-deploy","fromNode":"monad","fromSide":"bottom","toNode":"n3-deploy","toSide":"top","label":"Testnet 实战"}
 	]
 }
