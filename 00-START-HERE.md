@@ -8,13 +8,11 @@
 
 | 文件夹 | 作用 |
 |---|---|
-| `00-Inbox` | 临时收件箱，来不及分类的碎片先扔这里 |
-| `01-Daily` | 每日笔记，学到什么随手记一句（从 Day 1 开始） |
-| `02-Concepts` | 概念笔记（Zettelkasten），按领域分子文件夹，互相双链 |
-| `03-SOP-Weekly` | 每周 SOP 总结，最终产出，用来分享/建作品集 |
-| `04-Canvas` | 可视化白板，用 Obsidian Canvas 画知识图 |
-| `05-Knowledge` | 学习计划、问题清单、工具配置、Hermes 配置等 |
-| `Templates` | 模板文件：每日笔记 / 概念笔记 / SOP 周报 / 课程笔记 |
+| `00_Reference_Library` | 外部参考资料库，存放学习资源和参考资料 |
+| `00_Reference_Library/AI_Web3_School` | AI × Web3 共学营的所有学习资料（概念笔记、学习计划、Week2 模块等） |
+| `01_My_Workspace` | 个人日常工作空间 |
+| `01_My_Workspace/Daily_Logs` | 每日日记，学到什么随手记一句（从 Day 1 开始） |
+| `01_My_Workspace/SOPs` | 每周 SOP 总结，最终产出，用来分享/建作品集 |
 
 ---
 
@@ -26,8 +24,8 @@
    - **Dataview**（自动汇总本周笔记，SOP 模板里已经写好查询）
    - **Templater**（可选，增强模板里的日期/自动化能力）
 4. 设置 → 核心插件 → Daily notes → 确认：
-   - 文件夹：`01-Daily`
-   - 模板：`Templates/Daily Note Template`
+   - 文件夹：`01_My_Workspace/Daily_Logs`
+   - 模板：`01_My_Workspace/Daily Note Template`
    - 日期格式：`YYYY-MM-DD`
 
 ---
@@ -38,10 +36,10 @@
 ① 设周目标 → ② 学习实践 → ③ 写 SOP → ④ 可视化 → ⑤ 分享
 ```
 
-1. **① 设周目标**：在 `03-SOP-Weekly` 新建本周 SOP 文件，写目标
-2. **② 学习实践**：每天打开 Daily Note，随手记一两句，遇到新概念就在 `02-Concepts` 新建笔记并双链回来
+1. **① 设周目标**：在 `01_My_Workspace/SOPs` 新建本周 SOP 文件，写目标
+2. **② 学习实践**：每天打开 Daily Note，随手记一两句，遇到新概念就在 `00_Reference_Library/AI_Web3_School` 对应目录新建笔记并双链回来
 3. **③ 写 SOP**：周末打开本周 SOP 文件，Dataview 查询会自动列出本周笔记，照着写总结、难点、复盘
-4. **④ 可视化**：去 `04-Canvas`，把本周概念笔记拖进画布，手动连线，形成知识地图
+4. **④ 可视化**：在知识地图 Canvas 中，把本周概念笔记拖进画布，手动连线，形成知识地图
 5. **⑤ 分享**：SOP 内容整理一下发到社区
 
 ---
@@ -71,9 +69,9 @@
 
 ## 🔗 快速入口
 
-- [[02-Concepts/MOC-Web3-训练营知识地图|MOC 知识地图]] — 所有概念的索引
-- [[05-Knowledge/Web3-Summer-Internship-学习计划|学习计划]] — 本学期目标和策略
-- [[05-Knowledge/Hermes/Hermes-Agent-配置经验|Hermes 配置]] — AI 助手配置经验
+- [[00_Reference_Library/AI_Web3_School/MOC-Web3-训练营知识地图|MOC 知识地图]] — 所有概念的索引
+- [[00_Reference_Library/AI_Web3_School/Web3-Summer-Internship-学习计划|学习计划]] — 本学期目标和策略
+- [[00_Reference_Library/AI_Web3_School/Hermes/Hermes-Agent-配置经验|Hermes 配置]] — AI 助手配置经验
 
 ---
 
